@@ -1,9 +1,8 @@
-const tailwind = require('tailwindcss')
-const cssnext = require('postcss-cssnext')
+const tailwind = require("tailwindcss")
 
 module.exports = {
     plugins: [
-        tailwind('./tailwind.config.js'),
-        cssnext()
+        tailwind("./tailwind.config.js"),
+        require("autoprefixer"),
     ]
 }

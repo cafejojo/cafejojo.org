@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "author": "Café Jojo <info@cafejojo.org>",
     "dependencies": {
+        "autoprefixer": "^8.5.1",
         "concurrently": "^3.5.1",
         "gatsby": "^1.9.241",
         "gatsby-link": "^1.6.39",
