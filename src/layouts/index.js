@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => (
         <Helmet
             title="Café Jojo"
             meta={[
-                { name: "description", content: "Website for the Café Jojo team." },
+                { name: "description", content: "Website for the Café Jojo team" },
                 { name: "keywords", content: "sample, something" }
             ]}
             script={[{ src: "https://use.fontawesome.com/5ecc914f86.js" }]}

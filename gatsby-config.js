@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: 'Gatsby Starter Tailwind',
+        title: "Café Jojo",
+        description: "Website for the Café Jojo team"
     },
-    plugins: ['gatsby-plugin-react-helmet'],
+    plugins: ["gatsby-plugin-react-helmet"],
 };

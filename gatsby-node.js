@@ -1,7 +1,24 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+exports.modifyWebpackConfig = ({ config, stage }) => {
+    switch (stage) {
+        case 'develop':
+            // Remove PostCSS from Gatsby's dev process
+            config.removeLoader(`css`)
+            config.loader(`css`, {
+                test: /\.css$/,
+                loaders: [`style`, `css`]
+            })
 
-// You can delete this file if you're not using it
+            break
+
+        case 'build-css':
+            // Remove PostCSS from Gatsby's build process
+            config.removeLoader(`css`)
+            config.loader(`css`, {
+                test: /\.css$/,
+                loader: "css"
+            })
+
+            break
+    }
+    return config
+}
