@@ -15,7 +15,7 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
             config.removeLoader(`css`)
             config.loader(`css`, {
                 test: /\.css$/,
-                loader: "css"
+                loaders: ["style", "css"]
             })
 
             break
