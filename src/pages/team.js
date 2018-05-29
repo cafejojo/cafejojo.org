@@ -19,7 +19,7 @@ const TeamMember = ({ name, githubUsername, photo }) => (
                 </div>
                 <div>
                     <a
-                        className="text-xs rounded-full no-underline px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white"
+                        className="text-xs rounded-full no-underline px-4 py-1 leading-normal bg-white border border-delft-blue text-delft-blue hover:bg-delft-blue hover:text-white"
                         href={`https://github.com/${githubUsername}`}
                     >
                         <i className="fa fa-github mr-2" />
