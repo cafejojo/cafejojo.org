@@ -2,7 +2,7 @@ import Link from "gatsby-link"
 import React from "react"
 
 const NavLink = ({ url, text }) => (
-    <Link to={url} className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white font-bold">
+    <Link to={url} className="block mt-4 p-4 md:inline-block md:mt-0 mr-6 no-underline text-white font-bold">
         {text}
     </Link>
 )
@@ -17,9 +17,9 @@ const Header = () => {
     }
 
     return (
-        <nav className="bg-red-lighter">
-            <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
-                <Link to="/" className="flex items-center no-underline text-orange-darker">
+        <nav className="bg-delft-blue">
+            <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto">
+                <Link to="/" className="flex items-center no-underline text-white p-6">
                     <span className="font-bold text-xl tracking-tight">Café Jojo</span>
                 </Link>
 
