@@ -9,9 +9,9 @@
 }
 
 .btn-green {
-    @apply .btn .bg-green .text-white;
+    @apply .btn .bg-green-dark .text-white;
 }
 
 .btn-green:hover {
-    @apply .btn .bg-green-dark;
+    @apply .btn .bg-green-darker;
 }
