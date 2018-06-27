@@ -1,9 +1,12 @@
 import React from "react"
+import Helmet from "react-helmet"
 
 import sheepImage from "../images/sheep.svg"
 
 const NotFoundPage = () => (
     <div className="text-center">
+        <Helmet title="404 - Café Jojo" />
+
         <div>
             <img src={sheepImage} title="Sheep" className="w-1/3" />
         </div>
