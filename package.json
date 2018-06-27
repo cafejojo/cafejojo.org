@@ -6,6 +6,7 @@
     "dependencies": {
         "gatsby": "^1.9.241",
         "gatsby-link": "^1.6.39",
+        "gatsby-plugin-favicon": "^2.1.1",
         "gatsby-plugin-react-helmet": "^2.0.8",
         "husky": "^0.14.3",
         "lint-staged": "^7.1.2",
