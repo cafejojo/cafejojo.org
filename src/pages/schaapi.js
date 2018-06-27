@@ -68,7 +68,7 @@ const SchaapiPage = () => (
 
                 <p className="text-xl text-center">
                     <strong>
-                        Schaapi has two pipelines: The <em className="text-delft-blue">mining</em> and the{" "}
+                        Schaapi has two pipelines: a <em className="text-delft-blue">mining</em> and a{" "}
                         <em className="text-delft-blue">validation</em> pipeline.
                     </strong>
                 </p>
