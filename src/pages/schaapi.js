@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 
 import schaapiLogo from "../images/schaapi-logo.png"
 import sergLogo from "../images/serg.png"
@@ -6,6 +7,8 @@ import tudelftLogo from "../images/tudelft.png"
 
 const SchaapiPage = () => (
     <div className="schaapi-page pt-6">
+        <Helmet title="Schaapi - Café Jojo" />
+
         <div className="text-center">
             <img src={schaapiLogo} alt="Schaapi" className="md:w-1/2 px-4" />
 

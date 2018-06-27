@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 
 import casperboone from "../images/casperboone.jpg"
 import fwdekker from "../images/fwdekker.jpg"
@@ -33,6 +34,8 @@ const TeamMember = ({ name, githubUsername, photo }) => (
 
 const TeamPage = () => (
     <div>
+        <Helmet title="Team - Café Jojo" />
+
         <TeamMember name="Casper Boone" githubUsername="casperboone" photo={casperboone} />
         <TeamMember name="Felix Dekker" githubUsername="fwdekker" photo={fwdekker} />
         <TeamMember name="Georgios Andreadis" githubUsername="gandreadis" photo={gandreadis} />
