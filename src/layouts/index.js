@@ -16,7 +16,7 @@ const TemplateWrapper = ({ children }) => (
             script={[{ src: "https://use.fontawesome.com/5ecc914f86.js" }]}
         />
         <Header />
-        <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto md:px-4 py-8 md:py-8 w-full">
             {children()}
         </div>
         <Footer />

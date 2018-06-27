@@ -24,7 +24,7 @@ const Header = () => {
                 </Link>
 
                 <button
-                    className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+                    className="block md:hidden border border-white flex items-center px-3 py-2 mr-4 rounded text-white"
                     onClick={handleClick}
                 >
                     <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
