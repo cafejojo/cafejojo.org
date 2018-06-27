@@ -77,8 +77,8 @@ const SchaapiPage = () => (
                     In the <strong className="text-delft-blue">mining</strong> pipeline, we first{" "}
                     <strong>mine open-source repositories</strong> that use a certain library version. We then{" "}
                     <strong>build graph-based models</strong> from their program structures to understand how the
-                    library is being used. These library usages are then <strong>mined for common patterns</strong> to{" "}
-                    <strong>generate tests</strong> that capture the usage of the library.
+                    library is being used. These library usages are then <strong>mined for common patterns</strong>
+                    to <strong>generate tests</strong> that capture the usage of the library.
                 </p>
 
                 <p>
