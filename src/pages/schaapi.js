@@ -33,7 +33,7 @@ const SchaapiPage = () => (
 
         <div className="mt-16">
             <div className="content-section bg-delft-blue text-white">
-                <h2>What is a "schaapi"?</h2>
+                <h2>What is Schaapi?</h2>
 
                 <p className="text-xl text-center">
                     <strong>Schaapi is a tool for early detection of breaking changes based on API usages!</strong>
