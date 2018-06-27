@@ -64,7 +64,7 @@ const SchaapiPage = () => (
             </div>
 
             <div className="content-section bg-grey-light">
-                <h2>Schaapi's Approach</h2>
+                <h2>Schaapi's approach</h2>
 
                 <p className="text-xl text-center">
                     <strong>
