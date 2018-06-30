@@ -1,9 +1,9 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from "react"
+import Helmet from "react-helmet"
 
-import schaapiLogo from "../images/schaapi-logo.png";
-import sergLogo from "../images/serg.png";
-import tudelftLogo from "../images/tudelft.png";
+import schaapiLogo from "../images/schaapi-logo.png"
+import sergLogo from "../images/serg.png"
+import tudelftLogo from "../images/tudelft.png"
 
 const SchaapiPage = () => (
     <div className="schaapi-page pt-6">
