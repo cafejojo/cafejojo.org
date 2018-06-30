@@ -32,6 +32,9 @@ const SchaapiPage = () => (
         </div>
 
         <div className="mt-16">
+            <div className="content-section bg-yellow font-bold text-center text-xl">
+                To be publicly presented in lecture hall Boole, EEMCS, TU Delft, on July 3rd, at 10am!
+            </div>
             <div className="content-section bg-delft-blue text-white">
                 <h2>What is Schaapi?</h2>
 
