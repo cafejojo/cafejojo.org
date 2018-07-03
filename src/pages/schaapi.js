@@ -1,9 +1,9 @@
-import React from "react"
-import Helmet from "react-helmet"
+import React from "react";
+import Helmet from "react-helmet";
 
-import schaapiLogo from "../images/schaapi-logo.png"
-import sergLogo from "../images/serg.png"
-import tudelftLogo from "../images/tudelft.png"
+import schaapiLogo from "../images/schaapi-logo.png";
+import sergLogo from "../images/serg.png";
+import tudelftLogo from "../images/tudelft.png";
 
 const SchaapiPage = () => (
     <div className="schaapi-page pt-6">
@@ -32,9 +32,6 @@ const SchaapiPage = () => (
         </div>
 
         <div className="mt-16">
-            <div className="content-section bg-yellow font-bold text-center text-xl">
-                To be publicly presented in lecture hall Boole, EEMCS, TU Delft, on July 3rd, at 10am!
-            </div>
             <div className="content-section bg-delft-blue text-white">
                 <h2>What is Schaapi?</h2>
 
