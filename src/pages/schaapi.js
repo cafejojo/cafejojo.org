@@ -93,7 +93,16 @@ const SchaapiPage = () => (
 
                 <div className="my-4 text-center text-xl">
                     <a className="btn btn-green inline-block" href="https://github.com/cafejojo/schaapi">
-                        Visit our <i className="fa fa-github" /> GitHub repository!
+                        <i className="fa fa-github mr-2" /> Visit our GitHub repository!
+                    </a>
+                </div>
+
+                <div className="my-2 text-center text-xl">
+                    <a
+                        className="btn btn-green inline-block"
+                        href="https://repository.tudelft.nl/islandora/object/uuid:cca5e4ea-3d00-4ae3-877a-b302829e7f08?collection=education"
+                    >
+                        <i className="fa fa-file-text mr-2" /> Read our Bachelor thesis!
                     </a>
                 </div>
             </div>
