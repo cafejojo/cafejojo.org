@@ -102,7 +102,7 @@ const SchaapiPage = () => (
                         className="btn btn-green inline-block"
                         href="https://repository.tudelft.nl/islandora/object/uuid:cca5e4ea-3d00-4ae3-877a-b302829e7f08?collection=education"
                     >
-                        <i className="fa fa-file-text mr-2" /> Read our Bachelor thesis!
+                        <i className="fa fa-file-text mr-2" /> Read our bachelor thesis!
                     </a>
                 </div>
             </div>
