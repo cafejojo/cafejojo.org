@@ -36,6 +36,7 @@ const Header = () => {
                 <div id="nav" className="hidden md:flex md:items-center w-full md:w-auto">
                     <div className="text-sm">
                         <NavLink url="/schaapi" text="schaapi" />
+                        <NavLink url="/react-native" text="react native" />
                         <NavLink url="/team" text="team" />
                         <NavLink url="/contact" text="contact" />
                     </div>
